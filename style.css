@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightgray;   
+    background-color: lightcyan;   
     margin: 10vw;
     color: rgba(0, 0, 0, 0.705);
 }
@@ -17,4 +17,9 @@ body {
 .container-1 {
     display: flex;
     justify-content: space-evenly;
+    background-color: lightgray;
+}
+
+hr {
+    color: lightsalmon;
 }
