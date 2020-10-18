@@ -1,0 +1,14 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgray;   
+}
+
+.header {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
