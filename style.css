@@ -1,9 +1,12 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: lightcyan;   
-    margin: 10vw;
+    margin: auto;
     color: rgba(0, 0, 0, 0.705);
+    padding: 5%;
+    
 }
+
 
 .header {
     margin-left: 10vw;
@@ -12,18 +15,18 @@ body {
     margin-bottom: 5vh;
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .container-1 {
     display: flex;
     justify-content: space-evenly;
-    background-color: lightgray;
+    max-width: 750px;
+    margin: auto
 }
 
-hr {
-    color: lightsalmon;
+.intro {
+    max-width: 850px;
+    margin: auto;
 }
 
-table, th, td {
-    border: 1px solid lightsalmon;
-  }
