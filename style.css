@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightcyan;   
+    background-color: rgb(250, 249, 247);
     margin: auto;
     color: rgba(0, 0, 0, 0.705);
     padding: 5%;
@@ -18,15 +18,35 @@ body {
     
 }
 
-.container-1 {
+.footer {
+    margin-top: 10vh;
     display: flex;
-    justify-content: space-evenly;
-    max-width: 750px;
-    margin: auto
+    margin-bottom: 3vh;
 }
-
-.intro {
-    max-width: 850px;
+.container-1 {
+    max-width: 750px;
     margin: auto;
 }
 
+.nav {
+    max-width: 850px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 50%;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 10px;
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.705);
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
+
+
+        
+        
